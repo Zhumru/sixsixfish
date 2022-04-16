@@ -1,5 +1,4 @@
 .DS_Store
-public/
 exampleSite/public
 .vscode/*
 !.vscode/settings.json
