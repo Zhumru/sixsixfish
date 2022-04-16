@@ -1,3 +1,15 @@
+.DS_Store
+public/
+exampleSite/public
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
 # Ignore docs files
 _site
 .ruby-version
@@ -12,7 +24,6 @@ _site
 *.rej
 *.swo
 *.swp
-*.zip
 *.vi
 *~
 # *.lock
