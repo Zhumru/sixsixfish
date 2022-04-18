@@ -2,7 +2,7 @@
 title: 产品更新日志
 draft: false
 # Section you want to display
-section: posts
+section: product
 # Pages count
 count: 5
 # Options: card, plain and masonry.
