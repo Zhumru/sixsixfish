@@ -29,6 +29,9 @@
     <loc>/authors/%E5%85%AD6%E9%B1%BC/</loc>
     <lastmod>2022-04-18T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/authors/sixsixfish/</loc>
+    <lastmod>2022-04-18T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/</loc>
     <lastmod>2022-04-18T00:00:00+00:00</lastmod>
   </url><url>
@@ -52,7 +55,5 @@
     <loc>/authors/hugo-authors/</loc>
   </url><url>
     <loc>/tags/</loc>
-  </url><url>
-    <loc>/authors/example-author/</loc>
   </url>
 </urlset>

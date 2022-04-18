@@ -3,7 +3,7 @@ title: Gcore-V3使用文档
 weight: 1
 description: 说明Gcore-V3主控转接小板的功能、使用以及元件焊接。
 toc: true
-authors:
+authors: SixSixFish
 tags:
 categories:
 series:

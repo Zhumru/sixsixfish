@@ -3,7 +3,7 @@ title: 按键转旋钮模块
 description:
 toc: true
 authors:
-  - 六6鱼
+  - SixSixFish
 tags:
 categories:
 series: module

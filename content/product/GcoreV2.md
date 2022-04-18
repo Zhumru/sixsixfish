@@ -3,7 +3,7 @@ title: GcoreV2主控转接小板
 description: G613主控转接小板V2.
 toc: true
 authors:
-  - 六6鱼
+  - SixSixFish
 tags:
 categories:
 series: G613

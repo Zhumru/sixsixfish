@@ -3,13 +3,14 @@ title: GIK87键盘
 description: 基于GcoreV2改造的G613主控无线游戏键盘。
 toc: true
 authors:
-  - 六6鱼
+  - SixSixFish
 tags:
 categories:
 series: G613
 date: '2021-11-19T22:56:56+08:00'
 lastmod: '2021-11-19T22:56:56+08:00'
-featuredImage:
+# 顶部图片 
+#featuredImage:
 draft: false
 ---
 

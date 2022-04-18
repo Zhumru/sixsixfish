@@ -1,6 +1,7 @@
 ---
 title: Hugo Authors
 role: Example Role
+avatar: images/icon.png
 bio: Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos.
 organization:
   name: Example Organization
