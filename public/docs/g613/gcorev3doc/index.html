@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html
+  lang="en"
+  dir="ltr"
+  
+><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<title>Gcore-V3使用文档 | G613相关 | 六6鱼分享站</title>
+
+<meta name="generator" content="Hugo Eureka 0.9.1" />
+<link rel="stylesheet" href="/css/eureka.min.6a378a23360d238dc3ef4df2f5cd718093f02c10c9c7eb2437c29701cd8d389ab6da5d9f21bdd3afa305fd56c1235017.css" integrity="sha384-ajeKIzYNI43D703y9c1xgJPwLBDJx&#43;skN8KXAc2NOJq22l2fIb3Tr6MF/VbBI1AX">
+<script defer src="/js/eureka.min.f1639ee98d6cbd85b2b5f034d27320da962002ff83159ed4e01dbc5948c42a1ab26c2d6e74c66e93f5cec4d24dbd166d.js" integrity="sha384-8WOe6Y1svYWytfA00nMg2pYgAv&#43;DFZ7U4B28WUjEKhqybC1udMZuk/XOxNJNvRZt"></script>
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload"
+  href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Noto+Serif+SC:wght@400;600;700&display=swap"
+  as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+
+
+
+<script defer type="text/javascript" src="/js/fontawesome.min.7a517ee79e430ca7b6d02ec6f4f2b39bcb6987e39d03cdf8b7dc274c0c00e2f141cddc618cf5a974dd4919d5b16af9a1.js" integrity="sha384-elF&#43;555DDKe20C7G9PKzm8tph&#43;OdA834t9wnTAwA4vFBzdxhjPWpdN1JGdWxavmh"></script>
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.css"
+   integrity="sha384-MlJdn/WNKDGXveldHDdyRP1R4CTHr3FeuDNfhsLPYrq2t0UBkUdK2jyTnXPEK1NQ"  media="print"
+  onload="this.media='all';this.onload=null" crossorigin>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.js" 
+  integrity="sha384-VQ8d8WVFw0yHhCk5E8I86oOhv48xLpnDZx5T9GogA/Y84DcCKWXDmSDfn13bzFZY"  crossorigin></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/contrib/auto-render.min.js"
+   integrity="sha384-&#43;XBljXPPiv&#43;OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR"  crossorigin></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    renderMathInElement(document.body, {
+      delimiters: [
+        { left: "$$", right: "$$", display: true },
+        { left: "$", right: "$", display: false },
+        { left: "\\(", right: "\\)", display: false },
+        { left: "\\[", right: "\\]", display: true }
+      ],
+    });
+  });
+</script>
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/mermaid@8.14.0/dist/mermaid.min.js" 
+  integrity="sha384-atOyb0FxAgN9LyAc6PEf9BjgwLISyansgdH8/VXQH8p2o5vfrRgmGIJ2Sg22L0A0"  crossorigin></script>
+
+
+<link rel="icon" type="image/png" sizes="32x32" href="/images/icon_hu54bccf6cde444945bb1e08b3dec66778_7002_32x32_fill_box_center_3.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/icon_hu54bccf6cde444945bb1e08b3dec66778_7002_180x180_fill_box_center_3.png">
+
+<meta name="description"
+  content="说明Gcore-V3主控转接小板的功能、使用以及元件焊接。">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+      "@type": "ListItem",
+      "position": 1 ,
+      "name":"文档",
+      "item":"/docs/"},{
+      "@type": "ListItem",
+      "position": 2 ,
+      "name":"G613相关",
+      "item":"/docs/g613/"},{
+      "@type": "ListItem",
+      "position": 3 ,
+      "name":"Gcore-V3使用文档",
+      "item":"/docs/g613/gcorev3doc/"}]
+}
+</script>
+
+
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "/docs/g613/gcorev3doc/"
+    },
+    "headline": "Gcore-V3使用文档 | G613相关 | 六6鱼分享站","datePublished": "2022-04-18T00:00:00+00:00",
+    "dateModified": "2022-04-18T00:00:00+00:00",
+    "wordCount":  210 ,
+    "publisher": {
+        "@type": "Person",
+        "name": "C. Wang",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "/images/icon.png"
+        }
+        },
+    "description": "说明Gcore-V3主控转接小板的功能、使用以及元件焊接。"
+}
+</script><meta property="og:title" content="Gcore-V3使用文档 | G613相关 | 六6鱼分享站" />
+<meta property="og:type" content="article" />
+
+
+<meta property="og:image" content="/images/icon.png">
+
+
+<meta property="og:url" content="/docs/g613/gcorev3doc/" />
+
+
+
+<meta property="og:description" content="说明Gcore-V3主控转接小板的功能、使用以及元件焊接。" />
+
+
+
+<meta property="og:locale" content="en" />
+
+
+
+
+<meta property="og:site_name" content="六6鱼分享站" />
+
+
+
+
+
+
+<meta property="article:published_time" content="2022-04-18T00:00:00&#43;00:00" />
+
+
+<meta property="article:modified_time" content="2022-04-18T00:00:00&#43;00:00" />
+
+
+
+<meta property="article:section" content="docs" />
+
+
+
+
+
+  <body class="flex min-h-screen flex-col">
+    <header
+      class="min-h-16 pl-scrollbar bg-secondary-bg fixed z-50 flex w-full items-center shadow-sm"
+    >
+      <div class="mx-auto w-full max-w-screen-xl"><script>
+    let storageColorScheme = localStorage.getItem("lightDarkMode")
+    if (((storageColorScheme == 'Auto' || storageColorScheme == null) && window.matchMedia("(prefers-color-scheme: dark)").matches) || storageColorScheme == "Dark") {
+        document.getElementsByTagName('html')[0].classList.add('dark')
+    }
+</script>
+<nav class="flex items-center justify-between flex-wrap px-4 py-4 md:py-0">
+    <a href="/" class="me-6 text-primary-text text-xl font-bold">六6鱼分享站</a>
+    <button id="navbar-btn" class="md:hidden flex items-center px-3 py-2" aria-label="Open Navbar">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <div id="target"
+        class="hidden block md:flex md:grow md:justify-between md:items-center w-full md:w-auto text-primary-text z-20">
+        <div class="md:flex md:h-16 text-sm md:grow pb-4 md:pb-0 border-b md:border-b-0">
+            <a href="/#about" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">主页</a>
+            <a href="/posts/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">产品</a>
+            <a href="/docs/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  selected-menu-item  me-4">文档</a>
+        </div>
+
+        <div class="flex">
+            <div class="relative pt-4 md:pt-0">
+                <div class="cursor-pointer hover:text-eureka" id="lightDarkMode">
+                    <i class="fas fa-adjust"></i>
+                </div>
+                <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-30" id="is-open">
+                </div>
+                <div class="absolute flex flex-col start-0 md:start-auto end-auto md:end-0 hidden bg-secondary-bg w-48 rounded py-2 border border-tertiary-bg cursor-pointer z-40"
+                    id='lightDarkOptions'>
+                    <span class="px-4 py-1 hover:text-eureka" name="Light">Light</span>
+                    <span class="px-4 py-1 hover:text-eureka" name="Dark">Dark</span>
+                    <span class="px-4 py-1 hover:text-eureka" name="Auto">Auto</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-0" id="is-open-mobile">
+    </div>
+
+</nav>
+<script>
+    
+    let element = document.getElementById('lightDarkMode')
+    if (storageColorScheme == null || storageColorScheme == 'Auto') {
+        document.addEventListener('DOMContentLoaded', () => {
+            window.matchMedia("(prefers-color-scheme: dark)").addEventListener('change', switchDarkMode)
+        })
+    } else if (storageColorScheme == "Light") {
+        element.firstElementChild.classList.remove('fa-adjust')
+        element.firstElementChild.setAttribute("data-icon", 'sun')
+        element.firstElementChild.classList.add('fa-sun')
+    } else if (storageColorScheme == "Dark") {
+        element.firstElementChild.classList.remove('fa-adjust')
+        element.firstElementChild.setAttribute("data-icon", 'moon')
+        element.firstElementChild.classList.add('fa-moon')
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        getcolorscheme();
+        switchBurger();
+    });
+</script>
+</div>
+    </header>
+    <main class="grow pt-16">
+        <div class="pl-scrollbar">
+          <div class="mx-auto w-full max-w-screen-xl lg:px-4 xl:px-8">
+
+
+<div class="lg:pt-12">
+    <div class="flex flex-col md:flex-row bg-secondary-bg rounded">
+        <div class="md:w-1/4 lg:w-1/5 border-e">
+            <div class="sticky top-16 pt-6">
+                
+
+
+
+
+
+
+
+
+
+
+<div id="sidebar-title" class="md:hidden mx-4 px-2 pt-4 pb-2 md:border-b text-tertiary-text md:text-primary-text">
+    <span class="font-semibold">Table of Contents</span>
+    <i class='fas fa-caret-right ms-1'></i>
+</div>
+
+<div id="sidebar-toc"
+    class="hidden md:block overflow-y-auto mx-6 md:mx-0 pe-6 pt-2 md:max-h-doc-sidebar bg-primary-bg md:bg-transparent">
+    <div class="flex flex-wrap ms-4 -me-2 p-2 bg-secondary-bg md:bg-primary-bg rounded">
+        <a class=" hover:text-eureka"
+            href="/docs/g613/">G613相关</a>
+        
+        
+        
+
+
+    </div>
+    
+<ul class="ps-6">
+    
+    
+    
+    <li class="py-2">
+        <div class="">
+            <a class=" text-eureka  hover:text-eureka"
+                href="/docs/g613/gcorev3doc/">Gcore-V3使用文档</a>
+        </div>
+        
+    </li>
+    
+    
+</ul>
+
+</div>
+
+
+
+
+
+            </div>
+
+        </div>
+        <div class="w-full md:w-3/4 lg:w-4/5 pb-8 pt-2 md:pt-8">
+            <div class="flex">
+                <div class="w-full lg:w-3/4 px-6">
+                    <article class="prose">
+  <h1 class="mb-4">Gcore-V3使用文档</h1>
+
+  <div
+  class="text-tertiary-text not-prose mt-2 flex flex-row flex-wrap items-center"
+>
+  <div class="me-6 my-2">
+    <i class="fas fa-calendar me-1"></i>
+    <span
+      >2022-04-18</span
+    >
+  </div>
+  <div class="me-6 my-2">
+    <i class="fas fa-clock me-1"></i>
+    <span>1 min read</span>
+  </div>
+
+  
+
+  
+</div>
+
+
+  
+  
+
+  <p>感谢使用Gcore-V3主控转接小板，本文档详细说明了Gcore-V3主控转接小板的功能、使用以及元件焊接。</p>
+<p>阅读之前不妨先看视频 <a href="https://gohugo.io/getting-started/installing/">罗技G613主控转接小板V3</a></p>
+<blockquote>
+<p><strong>更新说明：</strong>
+Gcore—V3版本的主控转接小板，在V2的基础上，不仅仅将键盘矩阵引脚及LS、蓝牙指示灯引出，还增加了以下板载功能：
+1、充电模块及充电指示灯；
+2、3V稳压模块；
+3、按键控制键盘背光灯打开与关闭；
+4、Fn功能。
+5、开源适配该小板的键盘主PCB原理图。</p>
+</blockquote>
+<p><a href="https://imagelol.com/image/L9T0lr"><img src="https://s6.jpg.cm/2022/04/18/L9T0lr.png" alt="测试图片"></a></p>
+<p>Gcore—V3小板共引出45个引脚，了解各引脚的使用说明请继续往下阅读。</p>
+<h2 id="电源相关">电源相关</h2>
+<ol>
+<li>充电采用5V电源输入，输入正极接5V引脚，负极接GND；</li>
+<li>电池采用3.7V锂电池，正极接BAT，负极接GND；</li>
+<li>板载3V稳压模块，该小板接上3.7V锂电池或通上5V电源即可工作。</li>
+</ol>
+<h2 id="背光灯与指示灯">背光灯与指示灯</h2>
+<ol>
+<li>键盘背光灯采用3528/6028单色反贴片灯，所有灯珠并联，正极接“背光灯+”，负极接GND；</li>
+<li>充电指示灯采用两颗LED或者单颗共阳RGB灯，正极接5V，负极分别接R和G，R为充电中，G为充满；</li>
+<li>大写caps、蓝牙和LightSpeed模式指示灯采用3颗LED或者单颗共阳RGB灯，正极接3V，负极分别接大写LED、蓝牙LED、LSLED。</li>
+</ol>
+<h2 id="按键矩阵">按键矩阵</h2>
+<p>按键矩阵可直接参考适配Gcore—V3的立创开源原理图及键盘PCB：<a href="https://gohugo.io/getting-started/installing/">G613键盘改造-搭配GcoreV3</a></p>
+<p>不会看原理图的话&hellip;矩阵图如下：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"></th>
+<th style="text-align:center">C0</th>
+<th style="text-align:center">C1</th>
+<th style="text-align:center">C2</th>
+<th style="text-align:center">C3</th>
+<th style="text-align:center">C4</th>
+<th style="text-align:center">C5</th>
+<th style="text-align:center">C6</th>
+<th style="text-align:center">C7</th>
+<th style="text-align:center">C8</th>
+<th style="text-align:center">C9</th>
+<th style="text-align:center">C10</th>
+<th style="text-align:center">C11</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><strong>R0</strong></td>
+<td style="text-align:center">Num_Enter</td>
+<td style="text-align:center">Num_.</td>
+<td style="text-align:center">Num_3</td>
+<td style="text-align:center">Num_6</td>
+<td style="text-align:center">Num_+</td>
+<td style="text-align:center">Num_9</td>
+<td style="text-align:center">Num_-</td>
+<td style="text-align:center">Num_*</td>
+<td style="text-align:center">上一曲</td>
+<td style="text-align:center">下一曲</td>
+<td style="text-align:center">音量+</td>
+<td style="text-align:center">音量-</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>R1</strong></td>
+<td style="text-align:center">Num_0</td>
+<td style="text-align:center">Num_2</td>
+<td style="text-align:center">Num_1</td>
+<td style="text-align:center">Num_5</td>
+<td style="text-align:center">Num_4</td>
+<td style="text-align:center">Num_8</td>
+<td style="text-align:center">Num_7</td>
+<td style="text-align:center">Num_/</td>
+<td style="text-align:center">NumLock</td>
+<td style="text-align:center">停止播放</td>
+<td style="text-align:center">暂停播放</td>
+<td style="text-align:center">静音</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>R2</strong></td>
+<td style="text-align:center">右</td>
+<td style="text-align:center">下</td>
+<td style="text-align:center">上</td>
+<td style="text-align:center">PgDn</td>
+<td style="text-align:center">END</td>
+<td style="text-align:center">HOME</td>
+<td style="text-align:center">INS</td>
+<td style="text-align:center">PgUp</td>
+<td style="text-align:center">PB</td>
+<td style="text-align:center">SL</td>
+<td style="text-align:center">PS</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>R3</strong></td>
+<td style="text-align:center">左</td>
+<td style="text-align:center">R_Ctrl</td>
+<td style="text-align:center">R_Shift</td>
+<td style="text-align:center">Enter</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">\</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>R4</strong></td>
+<td style="text-align:center">MENU</td>
+<td style="text-align:center">R_Win</td>
+<td style="text-align:center">/ ?</td>
+<td style="text-align:center">‘ “</td>
+<td style="text-align:center">] }</td>
+<td style="text-align:center">[ {</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>R5</strong></td>
+<td style="text-align:center">R_Alt</td>
+<td style="text-align:center">. &gt;</td>
+<td style="text-align:center">, &lt;</td>
+<td style="text-align:center">；：</td>
+<td style="text-align:center">L</td>
+<td style="text-align:center">P</td>
+<td style="text-align:center">O</td>
+<td style="text-align:center">0)</td>
+<td style="text-align:center">9(</td>
+<td style="text-align:center">F10</td>
+<td style="text-align:center">F9</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>R6</strong></td>
+<td style="text-align:center">M</td>
+<td style="text-align:center">N</td>
+<td style="text-align:center">K</td>
+<td style="text-align:center">J</td>
+<td style="text-align:center">I</td>
+<td style="text-align:center">U</td>
+<td style="text-align:center">8</td>
+<td style="text-align:center">7</td>
+<td style="text-align:center">F8</td>
+<td style="text-align:center">F7</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>R7</strong></td>
+<td style="text-align:center">B</td>
+<td style="text-align:center">V</td>
+<td style="text-align:center">H</td>
+<td style="text-align:center">G</td>
+<td style="text-align:center">Y</td>
+<td style="text-align:center">T</td>
+<td style="text-align:center">6</td>
+<td style="text-align:center">5</td>
+<td style="text-align:center">F6</td>
+<td style="text-align:center">F5</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>R8</strong></td>
+<td style="text-align:center">空格</td>
+<td style="text-align:center">C</td>
+<td style="text-align:center">X</td>
+<td style="text-align:center">F</td>
+<td style="text-align:center">D</td>
+<td style="text-align:center">R</td>
+<td style="text-align:center">E</td>
+<td style="text-align:center">4</td>
+<td style="text-align:center">3</td>
+<td style="text-align:center">F4</td>
+<td style="text-align:center">F3</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>R9</strong></td>
+<td style="text-align:center">L_Alt</td>
+<td style="text-align:center">L_Win</td>
+<td style="text-align:center">Z</td>
+<td style="text-align:center">S</td>
+<td style="text-align:center">A</td>
+<td style="text-align:center">W</td>
+<td style="text-align:center">Q</td>
+<td style="text-align:center">2</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">F2</td>
+<td style="text-align:center">F1</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>R10</strong></td>
+<td style="text-align:center">L_Ctrl</td>
+<td style="text-align:center">G6</td>
+<td style="text-align:center">L_Shfit</td>
+<td style="text-align:center">G5</td>
+<td style="text-align:center">CAPS</td>
+<td style="text-align:center">G4</td>
+<td style="text-align:center">Tab</td>
+<td style="text-align:center">G3</td>
+<td style="text-align:center">` ～</td>
+<td style="text-align:center">G2</td>
+<td style="text-align:center">ESC</td>
+<td style="text-align:center">G1</td>
+</tr>
+</tbody>
+</table>
+<p>上面矩阵图中不包含带Fn功能的按键，带Fn功能的按键（F11/F12/-_/=+/BackSpace/Delete）的接线方式请继续往下阅读。</p>
+<h2 id="fn功能">Fn功能</h2>
+<ol>
+<li>
+<p>Fn按键说明</p>
+<p>GcoreV3主控转接小板，实现了板载Fn功能。</p>
+<p>以下为按键对应的Fn功能：</p>
+</li>
+</ol>
+<ul>
+<li>Fn + F11 = lightSpeed按键</li>
+<li>Fn + F12 = 蓝牙按键</li>
+<li>Fn + -_  = 音量-按键</li>
+<li>Fn + =+  = 音量+按键</li>
+<li>Fn + BackSpace = 静音按键</li>
+<li>Fn + Delete = 开启/关闭背光灯</li>
+</ul>
+<ol start="2">
+<li>
+<p>Fn功能的接线方式可参考按键矩阵原理图：<a href="https://gohugo.io/getting-started/installing/">G613键盘改造-搭配GcoreV3</a></p>
+<p>不会看原理图的话&hellip;Fn功能的按键接线说明如下：</p>
+<p><em>二极管的方向为C→R</em></p>
+</li>
+</ol>
+<ul>
+<li>主控转接小板的n2引脚接F11按键的C脚，ROW4接F11按键的R脚；</li>
+<li>n2接F12按键的C脚，ROW3接F12按键的R脚；</li>
+<li>n3接-_按键的C脚，n5接-_按键的R脚；</li>
+<li>n4接=+按键的C脚，n5接=+按键的R脚；</li>
+<li>n6接BackSpace按键的C脚，n7接BackSpace按键的R脚；</li>
+<li>n8接Delete按键的C脚，n9接Delete按键的R脚，<em>Delete按键的二极管位置贴0欧1206电阻或者直接短接</em>；</li>
+<li>3V接Fn按键的C脚，n1接Fn按键的R脚，<em>Fn按键的二极管位置贴10欧1206电阻</em>。</li>
+</ul>
+<p><em>注意：Fn和Delete按键的二极管位置不是焊二极管！！</em></p>
+<hr>
+<h2 id="元件焊接指引">元件焊接指引</h2>
+
+</article>
+
+                    
+                    
+                    
+
+                    
+
+
+
+                    
+
+                    
+
+
+
+                </div>
+                
+                <div class="hidden lg:block lg:w-1/4">
+                    
+                    <div
+  class="
+    bg-secondary-bg
+   prose sticky top-16 z-10 hidden px-6 py-4 lg:block"
+>
+  <h3>本页内容</h3>
+</div>
+<div
+  class="sticky-toc 
+    border-s
+   hidden px-6 pb-6 lg:block"
+>
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#电源相关">电源相关</a></li>
+    <li><a href="#背光灯与指示灯">背光灯与指示灯</a></li>
+    <li><a href="#按键矩阵">按键矩阵</a></li>
+    <li><a href="#fn功能">Fn功能</a></li>
+    <li><a href="#元件焊接指引">元件焊接指引</a></li>
+  </ul>
+</nav>
+</div>
+<script>
+  window.addEventListener("DOMContentLoaded", () => {
+    enableStickyToc();
+  });
+</script>
+
+                    
+                </div>
+                
+            </div>
+
+        </div>
+
+
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        
+        changeSidebarHeight();
+        switchDocToc();
+    })
+</script>
+
+
+
+
+
+
+
+
+
+          </div>
+        </div>
+      
+    </main>
+    <footer class="pl-scrollbar">
+      <div class="mx-auto w-full max-w-screen-xl"><div class="text-center p-6 pin-b">
+    <p class="text-sm text-tertiary-text">&copy; 2022 <a href="https://sixsixfish.netlify.app/">六6鱼分享站</a> 
+
+        &middot;  BiliBili：<a href="https://b23.tv/9rosdu" class="hover:text-eureka">六6鱼 ·</a> QQ群： <a
+            href="https://jq.qq.com/?_wv=1027&k=cigApwae" class="hover:text-eureka">775776008</a></p>
+</div></div>
+    </footer>
+  </body>
+</html>

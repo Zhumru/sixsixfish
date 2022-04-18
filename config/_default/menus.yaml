@@ -1,10 +1,10 @@
 main:
-  - name: About
+  - name: 主页
     url: '#about'
     weight: 1
-  - name: Posts
+  - name: 产品
     url: /posts/
     weight: 2
-  - name: Docs
+  - name: 文档
     url: /docs/
     weight: 3

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>六6鱼 on 六6鱼分享站</title>
+    <link>/authors/%E5%85%AD6%E9%B1%BC/</link>
+    <description>Recent content in 六6鱼 on 六6鱼分享站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2022 &lt;a href=&#34;https://sixsixfish.netlify.app/&#34;&gt;六6鱼分享站&lt;/a&gt; 
+</copyright>
+    <lastBuildDate>Mon, 18 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="/authors/%E5%85%AD6%E9%B1%BC/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>G613相关</title>
+      <link>/docs/g613/</link>
+      <pubDate>Mon, 18 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/g613/</guid>
+      <description>G613系列产品的相关文档可以从这里寻找。</description>
+    </item>
+    
+    <item>
+      <title>GcoreV3主控转接小板</title>
+      <link>/posts/gcorev3/</link>
+      <pubDate>Mon, 18 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/gcorev3/</guid>
+      <description>更新说明： Gcore—V3版本的主控转接小板，在V2的基础上，不仅仅将键盘矩阵引脚及LS、蓝牙指示灯引出，还增加了以下板载功能： 1、充电模块及充电指示灯； 2、3V稳压模块； 3、按键控制键盘背光灯打开与关闭； 4、Fn功能。 5、开源适配该小板的键盘主PCB原理图。
+ 说明文档请见：GcoreV3主控转接小板</description>
+    </item>
+    
+    <item>
+      <title>GIK87键盘</title>
+      <link>/posts/gik87/</link>
+      <pubDate>Fri, 19 Nov 2021 22:56:56 +0800</pubDate>
+      
+      <guid>/posts/gik87/</guid>
+      <description>了解该键盘的更多信息请见：GIK87键盘-罗技G613改造</description>
+    </item>
+    
+    <item>
+      <title>按键转旋钮模块</title>
+      <link>/posts/keytoknob/</link>
+      <pubDate>Thu, 28 Oct 2021 21:16:22 +0800</pubDate>
+      
+      <guid>/posts/keytoknob/</guid>
+      <description>关于该模块的更多信息请见：按键转旋钮模块</description>
+    </item>
+    
+    <item>
+      <title>GcoreV2主控转接小板</title>
+      <link>/posts/gcorev2/</link>
+      <pubDate>Sun, 10 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/gcorev2/</guid>
+      <description>关于该小板的更多信息请见：GIK87键盘</description>
+    </item>
+    
+  </channel>
+</rss>

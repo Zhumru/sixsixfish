@@ -1,9 +1,9 @@
 ---
 title: Vintage
 draft: false
-slogan: We are all in the gutter, but some of us are looking at the stars.
-imgLeft: images/hero-left.jpg
-imgRight: images/hero-right.jpg
+slogan: love is worth years.       热爱可抵岁月漫长
+# imgLeft: images/hero-left.jpg
+# imgRight: images/hero-right.jpg
 
 weight: 4
 widget:

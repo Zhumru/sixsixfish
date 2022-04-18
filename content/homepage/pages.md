@@ -1,5 +1,5 @@
 ---
-title: Pages
+title: 产品更新日志
 draft: false
 # Section you want to display
 section: posts

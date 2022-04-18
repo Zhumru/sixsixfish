@@ -1,102 +1,65 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Eureka Demo</title>
+    <title>六6鱼分享站</title>
     <link>/</link>
-    <description>Recent content on Eureka Demo</description>
+    <description>Recent content on 六6鱼分享站</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>&amp;copy; 2021 &lt;a href=&#34;https://www.wangchucheng.com/&#34;&gt;WANG Chucheng&lt;/a&gt; and &lt;a href=&#34;https://www.ruiqima.com/&#34;&gt;MA Ruiqi&lt;/a&gt;
+    <copyright>&amp;copy; 2022 &lt;a href=&#34;https://sixsixfish.netlify.app/&#34;&gt;六6鱼分享站&lt;/a&gt; 
 </copyright>
-    <lastBuildDate>Wed, 31 Mar 2021 13:11:22 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Diagram Support</title>
-      <link>/posts/diagram-support/</link>
-      <pubDate>Wed, 31 Mar 2021 13:11:22 +0800</pubDate>
+      <title>Gcore-V3使用文档</title>
+      <link>/docs/g613/gcorev3doc/</link>
+      <pubDate>Mon, 18 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>/posts/diagram-support/</guid>
-      <description>&lt;p&gt;Eureka supports the rendering of diagrams by using Mermaid.&lt;/p&gt;</description>
+      <guid>/docs/g613/gcorev3doc/</guid>
+      <description>感谢使用Gcore-V3主控转接小板，本文档详细说明了Gcore-V3主控转接小板的功能、使用以及元件焊接。
+阅读之前不妨先看视频 罗技G613主控转接小板V3
+ 更新说明： Gcore—V3版本的主控转接小板，在V2的基础上，不仅仅将键盘矩阵引脚及LS、蓝牙指示灯引出，还增加了以下板载功能： 1、充电模块及充电指示灯； 2、3V稳压模块； 3、按键控制键盘背光灯打开与关闭； 4、Fn功能。 5、开源适配该小板的键盘主PCB原理图。
+ 
+Gcore—V3小板共引出45个引脚，了解各引脚的使用说明请继续往下阅读。
+电源相关  充电采用5V电源输入，输入正极接5V引脚，负极接GND； 电池采用3.7V锂电池，正极接BAT，负极接GND； 板载3V稳压模块，该小板接上3.7V锂电池或通上5V电源即可工作。  背光灯与指示灯  键盘背光灯采用3528/6028单色反贴片灯，所有灯珠并联，正极接“背光灯+”，负极接GND； 充电指示灯采用两颗LED或者单颗共阳RGB灯，正极接5V，负极分别接R和G，R为充电中，G为充满； 大写caps、蓝牙和LightSpeed模式指示灯采用3颗LED或者单颗共阳RGB灯，正极接3V，负极分别接大写LED、蓝牙LED、LSLED。  按键矩阵 按键矩阵可直接参考适配Gcore—V3的立创开源原理图及键盘PCB：G613键盘改造-搭配GcoreV3
+不会看原理图的话&amp;hellip;矩阵图如下：
+    C0 C1 C2 C3 C4 C5 C6 C7 C8 C9 C10 C11     R0 Num_Enter Num_. Num_3 Num_6 Num_+ Num_9 Num_- Num_* 上一曲 下一曲 音量+ 音量-   R1 Num_0 Num_2 Num_1 Num_5 Num_4 Num_8 Num_7 Num_/ NumLock 停止播放 暂停播放 静音   R2 右 下 上 PgDn END HOME INS PgUp PB SL PS    R3 左 R_Ctrl R_Shift Enter  \         R4 MENU R_Win / ?</description>
     </item>
     
     <item>
-      <title>Math Support</title>
-      <link>/posts/math-support/</link>
-      <pubDate>Fri, 20 Nov 2020 22:52:56 +0800</pubDate>
+      <title>GcoreV3主控转接小板</title>
+      <link>/posts/gcorev3/</link>
+      <pubDate>Mon, 18 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>/posts/math-support/</guid>
-      <description>&lt;p&gt;Eureka supports the rendering of mathematical formulas by using KaTeX.&lt;/p&gt;</description>
+      <guid>/posts/gcorev3/</guid>
+      <description>更新说明： Gcore—V3版本的主控转接小板，在V2的基础上，不仅仅将键盘矩阵引脚及LS、蓝牙指示灯引出，还增加了以下板载功能： 1、充电模块及充电指示灯； 2、3V稳压模块； 3、按键控制键盘背光灯打开与关闭； 4、Fn功能。 5、开源适配该小板的键盘主PCB原理图。
+ 说明文档请见：GcoreV3主控转接小板</description>
     </item>
     
     <item>
-      <title>Chapter 1</title>
-      <link>/docs/example-doc/chapter-1/</link>
-      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      <title>GIK87键盘</title>
+      <link>/posts/gik87/</link>
+      <pubDate>Fri, 19 Nov 2021 22:56:56 +0800</pubDate>
       
-      <guid>/docs/example-doc/chapter-1/</guid>
-      <description>&lt;p&gt;This is chapter 1 of example doc.&lt;/p&gt;</description>
+      <guid>/posts/gik87/</guid>
+      <description>了解该键盘的更多信息请见：GIK87键盘-罗技G613改造</description>
     </item>
     
     <item>
-      <title>Chapter 1</title>
-      <link>/docs/example-doc/nested-chapter/chapter-1/</link>
-      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      <title>按键转旋钮模块</title>
+      <link>/posts/keytoknob/</link>
+      <pubDate>Thu, 28 Oct 2021 21:16:22 +0800</pubDate>
       
-      <guid>/docs/example-doc/nested-chapter/chapter-1/</guid>
-      <description>&lt;p&gt;This is chapter 1 of nested chapter.&lt;/p&gt;</description>
+      <guid>/posts/keytoknob/</guid>
+      <description>关于该模块的更多信息请见：按键转旋钮模块</description>
     </item>
     
     <item>
-      <title>Chapter 2</title>
-      <link>/docs/example-doc/chapter-2/</link>
-      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      <title>GcoreV2主控转接小板</title>
+      <link>/posts/gcorev2/</link>
+      <pubDate>Sun, 10 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>/docs/example-doc/chapter-2/</guid>
-      <description>&lt;p&gt;This is chapter 2 of example doc.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chapter 2</title>
-      <link>/docs/example-doc/nested-chapter/chapter-2/</link>
-      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/example-doc/nested-chapter/chapter-2/</guid>
-      <description>&lt;p&gt;This is chapter 2 of nested chapter.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Featured Image</title>
-      <link>/posts/featured-image/</link>
-      <pubDate>Tue, 26 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/featured-image/</guid>
-      <description>&lt;p&gt;Maecenas maximus, elit in ornare porttitor, nisi eros hendrerit nisl, sed fermentum nulla urna blandit tellus.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Markdown Syntax Guide</title>
-      <link>/posts/markdown-syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/markdown-syntax/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Placeholder Text</title>
-      <link>/posts/placeholder-text/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/placeholder-text/</guid>
-      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Emoji Support</title>
-      <link>/posts/emoji-support/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/emoji-support/</guid>
-      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
+      <guid>/posts/gcorev2/</guid>
+      <description>关于该小板的更多信息请见：GIK87键盘</description>
     </item>
     
   </channel>

@@ -1,5 +1,5 @@
 baseURL: /
-title: Eureka Demo
+title: 六6鱼分享站
 
 # Uncomment when not installing with Hugo Modules
 # theme: eureka
@@ -9,8 +9,7 @@ theme: eureka
 
 paginate: 3
 copyright: >
-  &copy; 2021 <a href="https://www.wangchucheng.com/">WANG Chucheng</a> and <a
-  href="https://www.ruiqima.com/">MA Ruiqi</a>
+  &copy; 2022 <a href="https://sixsixfish.netlify.app/">六6鱼分享站</a> 
 enableEmoji: true
 enableGitInfo: false
 summaryLength: 75
