@@ -3,7 +3,7 @@ main:
     url: '#about'
     weight: 1
   - name: 产品
-    url: /posts/
+    url: /product/
     weight: 2
   - name: 文档
     url: /docs/

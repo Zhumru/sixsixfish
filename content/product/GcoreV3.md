@@ -20,6 +20,6 @@ draft: false
 	4、Fn功能。
 	5、开源适配该小板的键盘主PCB原理图。
 
-说明文档请见：[GcoreV3主控转接小板](https://b23.tv/YLVFTjV)
+说明文档请见：[GcoreV3主控转接小板](/docs/g613/gcorev3doc/)
 
 
