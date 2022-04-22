@@ -1,23 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>六6鱼 on 六6鱼分享站</title>
-    <link>/authors/%E5%85%AD6%E9%B1%BC/</link>
-    <description>Recent content in 六6鱼 on 六6鱼分享站</description>
+    <title>功能模块 on 六6鱼分享站</title>
+    <link>/series/%E5%8A%9F%E8%83%BD%E6%A8%A1%E5%9D%97/</link>
+    <description>Recent content in 功能模块 on 六6鱼分享站</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2022 &lt;a href=&#34;https://sixsixfish.netlify.app/&#34;&gt;六6鱼分享站&lt;/a&gt; 
 </copyright>
-    <lastBuildDate>Fri, 22 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="/authors/%E5%85%AD6%E9%B1%BC/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>G613相关</title>
-      <link>/docs/g613/</link>
-      <pubDate>Mon, 18 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/docs/g613/</guid>
-      <description>G613系列产品的相关文档可以从这里寻找。</description>
-    </item>
-    
+    <lastBuildDate>Fri, 22 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="/series/%E5%8A%9F%E8%83%BD%E6%A8%A1%E5%9D%97/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>各功能模块相关</title>
       <link>/docs/modules/</link>

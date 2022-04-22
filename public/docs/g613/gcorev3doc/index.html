@@ -86,14 +86,14 @@
     },
     "headline": "Gcore-V3使用文档 | G613相关 | 六6鱼分享站","datePublished": "2022-04-18T00:00:00+00:00",
     "dateModified": "2022-04-18T00:00:00+00:00",
-    "wordCount":  210 ,
+    "wordCount":  370 ,
     "author": {
         "@type": "Person",
         "name": "SixSixFish"
     },
     "publisher": {
         "@type": "Person",
-        "name": "C. Wang",
+        "name": "SixSixFish",
         "logo": {
             "@type": "ImageObject",
             "url": "/images/icon.png"
@@ -288,7 +288,7 @@
   </div>
   <div class="me-6 my-2">
     <i class="fas fa-clock me-1"></i>
-    <span>1 min read</span>
+    <span>2 min read</span>
   </div>
 
   
@@ -312,7 +312,7 @@ Gcore—V3版本的主控转接小板，在V2的基础上，不仅仅将键盘�
 5、开源适配该小板的键盘主PCB原理图。</p>
 </blockquote>
 <p><a href="https://imagelol.com/image/L9T0lr"><img src="https://s6.jpg.cm/2022/04/18/L9T0lr.png" alt="测试图片"></a></p>
-<p>Gcore—V3小板共引出45个引脚，了解各引脚的使用说明请继续往下阅读。</p>
+<p>Gcore—V3小板共引出42个引脚，了解各引脚的使用说明请继续往下阅读。</p>
 <h2 id="电源相关">电源相关</h2>
 <ol>
 <li>充电采用5V电源输入，输入正极接5V引脚，负极接GND；</li>
@@ -550,6 +550,239 @@ Gcore—V3版本的主控转接小板，在V2的基础上，不仅仅将键盘�
 <p><em>注意：Fn和Delete按键的二极管位置不是焊二极管！！</em></p>
 <hr>
 <h2 id="元件焊接指引">元件焊接指引</h2>
+<p>各编号对应的元件请参考下面的BOM表：</p>
+<table>
+<thead>
+<tr>
+<th><strong>编号</strong></th>
+<th><strong>名称</strong></th>
+<th><strong>丝印</strong></th>
+<th><strong>引脚数</strong></th>
+<th><strong>封装</strong></th>
+<th><strong>数量</strong></th>
+<th><strong>备注</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>C3,C6,C9,C10</td>
+<td>100nF</td>
+<td>无</td>
+<td>2</td>
+<td>C0805</td>
+<td>1</td>
+<td>小的电容</td>
+</tr>
+<tr>
+<td>C11,C12</td>
+<td>10μF</td>
+<td>无</td>
+<td>2</td>
+<td>C1206</td>
+<td>2</td>
+<td>大的电容</td>
+</tr>
+<tr>
+<td>D1,D2（T4）</td>
+<td>4148二极管</td>
+<td>T4</td>
+<td>2</td>
+<td>贴片二极管T4-1N4148WS-SOD123-1206</td>
+<td>2</td>
+<td>有正负极</td>
+</tr>
+<tr>
+<td>D3,D4</td>
+<td>SS16L</td>
+<td>SS16</td>
+<td>2</td>
+<td>SMA_L4.3-W2.6-LS5.2-RD</td>
+<td>2</td>
+<td>有正负极</td>
+</tr>
+<tr>
+<td>Q1,Q2,Q4</td>
+<td>MOSFET</td>
+<td>7002</td>
+<td>3</td>
+<td>SOT23-3  NCHANNELAO3404A</td>
+<td>3</td>
+<td></td>
+</tr>
+<tr>
+<td>Q3</td>
+<td>AO3401-P</td>
+<td>A19T</td>
+<td>3</td>
+<td>SOT-23_L2.9-W1.3-P1.90-LS2.4-BR</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>Q5</td>
+<td>S8050-NPN</td>
+<td>Y1</td>
+<td>3</td>
+<td>SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>R1,R3,R11</td>
+<td>1K</td>
+<td>1001或102</td>
+<td>2</td>
+<td>R1206</td>
+<td>3</td>
+<td></td>
+</tr>
+<tr>
+<td>R4,R5,R10,R23</td>
+<td>47K</td>
+<td>4702或473</td>
+<td>2</td>
+<td>R1206</td>
+<td>4</td>
+<td></td>
+</tr>
+<tr>
+<td>R6,R7,R8</td>
+<td>10R</td>
+<td>100</td>
+<td>2</td>
+<td>R1206</td>
+<td>3</td>
+<td></td>
+</tr>
+<tr>
+<td>R9,R12</td>
+<td>2K</td>
+<td>2001</td>
+<td>2</td>
+<td>R1206</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>R13</td>
+<td>10k</td>
+<td>1002</td>
+<td>2</td>
+<td>R1206</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>R14</td>
+<td>1.2k/1%</td>
+<td>1201</td>
+<td>2</td>
+<td>R1206</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>R17</td>
+<td>100K</td>
+<td>1003或104</td>
+<td>2</td>
+<td>R1206</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>R19,R20</td>
+<td>1M</td>
+<td>105</td>
+<td>2</td>
+<td>R1206</td>
+<td>2</td>
+<td></td>
+</tr>
+<tr>
+<td>R21</td>
+<td>300K</td>
+<td>3003或304</td>
+<td>2</td>
+<td>R1206</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>R22</td>
+<td>R2512</td>
+<td>1R0</td>
+<td>2</td>
+<td>R2512</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>U3</td>
+<td>XC6206P332MR</td>
+<td>662K</td>
+<td>3</td>
+<td>SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>U5</td>
+<td>TP4056</td>
+<td>4056A</td>
+<td>8</td>
+<td>TP4056带散热</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>U7,U8,U9</td>
+<td>CD4053BM</td>
+<td>CD4053BM</td>
+<td>16</td>
+<td>SOIC-16_L9.9-W3.9-P1.27-LS6.0-BL</td>
+<td>3</td>
+<td></td>
+</tr>
+<tr>
+<td>U2</td>
+<td>G613主控</td>
+<td>无</td>
+<td>47</td>
+<td>G613主控封装</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>P1</td>
+<td>2.54排针_1X45</td>
+<td>无</td>
+<td>42</td>
+<td>2.54排针_1X45</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>双孔位</td>
+<td>LS</td>
+<td>不焊接</td>
+<td>2</td>
+<td>测试用</td>
+<td>1</td>
+<td>瞬间短接开启LS模式</td>
+</tr>
+<tr>
+<td>双孔位</td>
+<td>蓝牙</td>
+<td>不焊接</td>
+<td>2</td>
+<td>测试用</td>
+<td>1</td>
+<td>瞬间短接开启蓝牙模式</td>
+</tr>
+</tbody>
+</table>
+<p><em>温馨提示：电容电阻不用区分正负极；有正负极的元件注意看丝印和PCB上的图案对应；多脚芯片注意芯片上的小圆点和PCB上标注的小圆点位置对应！！</em></p>
 
 </article>
 

@@ -9,6 +9,7 @@ series: G613系列
 date: '2022-04-18'
 lastmod: '2022-04-18'
 draft: false
+weight: 1
 ---
 
 G613系列产品的相关文档可以从这里寻找。
