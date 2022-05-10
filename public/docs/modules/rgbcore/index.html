@@ -86,7 +86,7 @@
     },
     "headline": "WS2812-RGB灯珠控制芯片说明文档 | 各功能模块相关 | 六6鱼分享站","datePublished": "2022-04-22T00:00:00+00:00",
     "dateModified": "2022-04-22T00:00:00+00:00",
-    "wordCount":  2 ,
+    "wordCount":  11 ,
     "author": {
         "@type": "Person",
         "name": "SixSixFish"
@@ -300,8 +300,19 @@
   
   
 
-  <p>该芯片烧录了一百多种灯效，可支持控制300颗WS2812-RGB灯珠。
-暂未发布，敬请期待&hellip;</p>
+  <p>该芯片烧录了大约120种灯效，可支持控制400颗WS2812-RGB灯珠。</p>
+<h2 id="功能说明">功能说明</h2>
+<ol>
+<li>最多可控制400颗WS2812灯珠。</li>
+<li>总共约120种灯效。</li>
+<li>四个功能按键：上一灯效、下一灯效、调速、开关。</li>
+<li>同时按下“上一灯效”和“下一灯效”两个按键触发循环灯效，从第一个灯效开始循环，自动变化模式，循环过程中按下“下一灯效”结束循环，并停留在第一个灯效。</li>
+<li>调速按键可以调节变幻速度，由慢到快共8级速度，调到最快再按下“调速”按键会回到最慢速度。</li>
+<li>带有掉电保持功能，在使用过程中如果意外断电，会保存当前灯效和速度，下一次启动时自动使用上次的灯效与速度。</li>
+<li>工作电压:3.2V-5V。</li>
+<li>静态电流最大5μA，不开启灯光时功耗几乎不计。
+暂未发布，敬请期待&hellip;</li>
+</ol>
 
 </article>
 
@@ -347,6 +358,35 @@
 
 
 
+                </div>
+                
+                <div class="hidden lg:block lg:w-1/4">
+                    
+                    <div
+  class="
+    bg-secondary-bg
+   prose sticky top-16 z-10 hidden px-6 py-4 lg:block"
+>
+  <h3>本页内容</h3>
+</div>
+<div
+  class="sticky-toc 
+    border-s
+   hidden px-6 pb-6 lg:block"
+>
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#功能说明">功能说明</a></li>
+  </ul>
+</nav>
+</div>
+<script>
+  window.addEventListener("DOMContentLoaded", () => {
+    enableStickyToc();
+  });
+</script>
+
+                    
                 </div>
                 
             </div>
