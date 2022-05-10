@@ -5,7 +5,7 @@
     <link>/</link>
     <description>Recent content on 六6鱼分享站</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
+    <language>zh</language>
     <copyright>&amp;copy; 2022 &lt;a href=&#34;https://sixsixfish.netlify.app/&#34;&gt;六6鱼分享站&lt;/a&gt; 
 </copyright>
     <lastBuildDate>Tue, 10 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
@@ -15,8 +15,7 @@
       <pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate>
       
       <guid>/docs/modules/rgbcore/</guid>
-      <description>该芯片烧录了大约120种灯效，可支持控制400颗WS2812-RGB灯珠。
-功能说明  最多可控制400颗WS2812灯珠。 总共约120种灯效。 四个功能按键：上一灯效、下一灯效、调速、开关。 同时按下“上一灯效”和“下一灯效”两个按键触发循环灯效，从第一个灯效开始循环，自动变化模式，循环过程中按下“下一灯效”结束循环，并停留在第一个灯效。 调速按键可以调节变幻速度，由慢到快共8级速度，调到最快再按下“调速”按键会回到最慢速度。 带有掉电保持功能，在使用过程中如果意外断电，会保存当前灯效和速度，下一次启动时自动使用上次的灯效与速度。 工作电压:3.2V-5V。 静态电流最大5μA，不开启灯光时功耗几乎不计。 暂未发布，敬请期待&amp;hellip;  </description>
+      <description>该芯片烧录了大约120种灯效，可支持控制400颗WS2812-RGB灯珠。 功能说明 最多可控制400颗WS2812灯珠。 总共约120种灯效。 四个功能按键</description>
     </item>
     
     <item>
@@ -25,14 +24,7 @@
       <pubDate>Mon, 18 Apr 2022 00:00:00 +0000</pubDate>
       
       <guid>/docs/g613/gcorev3doc/</guid>
-      <description>感谢使用Gcore-V3主控转接小板，本文档详细说明了Gcore-V3主控转接小板的功能、使用以及元件焊接。
-阅读之前不妨先看视频 罗技G613主控转接小板V3
- 更新说明： Gcore—V3版本的主控转接小板，在V2的基础上，不仅仅将键盘矩阵引脚及LS、蓝牙指示灯引出，还增加了以下板载功能： 1、充电模块及充电指示灯； 2、3V稳压模块； 3、按键控制键盘背光灯打开与关闭； 4、Fn功能。 5、开源适配该小板的键盘主PCB原理图。
- 
-Gcore—V3小板共引出42个引脚，了解各引脚的使用说明请继续往下阅读。
-电源相关  充电采用5V电源输入，输入正极接5V引脚，负极接GND； 电池采用3.7V锂电池，正极接BAT，负极接GND； 板载3V稳压模块，该小板接上3.7V锂电池或通上5V电源即可工作。  背光灯与指示灯  键盘背光灯采用3528/6028单色反贴片灯，所有灯珠并联，正极接“背光灯+”，负极接GND； 充电指示灯采用两颗LED或者单颗共阳RGB灯，正极接5V，负极分别接R和G，R为充电中，G为充满； 大写caps、蓝牙和LightSpeed模式指示灯采用3颗LED或者单颗共阳RGB灯，正极接3V，负极分别接大写LED、蓝牙LED、LSLED。  按键矩阵 按键矩阵可直接参考适配Gcore—V3的立创开源原理图及键盘PCB：G613键盘改造-搭配GcoreV3
-不会看原理图的话&amp;hellip;矩阵图如下：
-    C0 C1 C2 C3 C4 C5 C6 C7 C8 C9 C10 C11     R0 Num_Enter Num_. Num_3 Num_6 Num_+ Num_9 Num_- Num_* 上一曲 下一曲 音量+ 音量-   R1 Num_0 Num_2 Num_1 Num_5 Num_4 Num_8 Num_7 Num_/ NumLock 停止播放 暂停播放 静音   R2 右 下 上 PgDn END HOME INS PgUp PB SL PS    R3 左 R_Ctrl R_Shift Enter  \         R4 MENU R_Win / ?</description>
+      <description>感谢使用Gcore-V3主控转接小板，本文档详细说明了Gcore-V3主控转接小板的功能、使用以及元件焊接。 阅读之前不妨先看视频 罗技G613主控转接小</description>
     </item>
     
     <item>
@@ -50,8 +42,7 @@ Gcore—V3小板共引出42个引脚，了解各引脚的使用说明请继续�
       <pubDate>Mon, 18 Apr 2022 00:00:00 +0000</pubDate>
       
       <guid>/product/gcorev3/</guid>
-      <description>更新说明： Gcore—V3版本的主控转接小板，在V2的基础上，不仅仅将键盘矩阵引脚及LS、蓝牙指示灯引出，还增加了以下板载功能： 1、充电模块及充电指示灯； 2、3V稳压模块； 3、按键控制键盘背光灯打开与关闭； 4、Fn功能。 5、开源适配该小板的键盘主PCB原理图。
- 说明文档请见：GcoreV3主控转接小板</description>
+      <description>更新说明： Gcore—V3版本的主控转接小板，在V2的基础上，不仅仅将键盘矩阵引脚及LS、蓝牙指示灯引出，还增加了以下板载功能： 1、充电模块及充电指示</description>
     </item>
     
     <item>

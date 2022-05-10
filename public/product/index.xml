@@ -5,7 +5,7 @@
     <link>/product/</link>
     <description>Recent content in 产品 on 六6鱼分享站</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
+    <language>zh</language>
     <copyright>&amp;copy; 2022 &lt;a href=&#34;https://sixsixfish.netlify.app/&#34;&gt;六6鱼分享站&lt;/a&gt; 
 </copyright>
     <lastBuildDate>Tue, 10 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="/product/index.xml" rel="self" type="application/rss+xml" />
@@ -24,8 +24,7 @@
       <pubDate>Mon, 18 Apr 2022 00:00:00 +0000</pubDate>
       
       <guid>/product/gcorev3/</guid>
-      <description>更新说明： Gcore—V3版本的主控转接小板，在V2的基础上，不仅仅将键盘矩阵引脚及LS、蓝牙指示灯引出，还增加了以下板载功能： 1、充电模块及充电指示灯； 2、3V稳压模块； 3、按键控制键盘背光灯打开与关闭； 4、Fn功能。 5、开源适配该小板的键盘主PCB原理图。
- 说明文档请见：GcoreV3主控转接小板</description>
+      <description>更新说明： Gcore—V3版本的主控转接小板，在V2的基础上，不仅仅将键盘矩阵引脚及LS、蓝牙指示灯引出，还增加了以下板载功能： 1、充电模块及充电指示</description>
     </item>
     
     <item>
