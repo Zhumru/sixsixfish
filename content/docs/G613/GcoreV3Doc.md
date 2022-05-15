@@ -9,12 +9,13 @@ categories:
 series:
 date: '2022-04-18'
 lastmod: '2022-04-18'
-draft: false
+draft: true
 ---
+、、尚未发布，敬请期待。。。
 
 感谢使用Gcore-V3主控转接小板，本文档详细说明了Gcore-V3主控转接小板的功能、使用以及元件焊接。
 
-阅读之前不妨先看视频 [罗技G613主控转接小板V3](https://gohugo.io/getting-started/installing/) 
+阅读之前不妨先看视频 [罗技G613主控转接小板V3](https://gg/) 
 
 
 >  **更新说明：**

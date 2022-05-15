@@ -14,7 +14,10 @@ draft: false
 
 该芯片烧录了大约120种灯效，可支持控制400颗WS2812-RGB灯珠的灯带。
 
-使用之前不妨先看视频 [BiliBili](https://gohugo.io/getting-started/installing/) 
+使用之前不妨先看视频 [【关于RGB，你只需要一颗芯片！电子DIY神器-RGB控制模块 简单易用-哔哩哔哩】](https://b23.tv/B2cFvnx) 
+
+[![LMlUqD.png](https://s6.jpg.cm/2022/05/15/LMlUqD.png)](https://imagelol.com/image/LMlUqD)
+
 ## 使用说明
  1. 每个灯串最多可Din-Dout串接400颗WS2812灯珠。
  2. 总共约120种灯效。
@@ -27,5 +30,4 @@ draft: false
 
 如果想将该模块集成到自己的PCB上，请访问立创开源链接 [WS2812-RGB灯珠控制模块](https://oshwhub.com/lmlku/ws2812-rgb-modules) 
 
-暂未发布，敬请期待...
 
