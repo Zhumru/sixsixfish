@@ -12,7 +12,8 @@ lastmod: '2022-05-10'
 #featuredImage: images/RGBcore.jpg
 draft: false
 ---
-[![LDAHC4.jpg](https://s6.jpg.cm/2022/05/12/LDAHC4.jpg)](https://imagelol.com/image/LDAHC4)
+<!-- [![LDAHC4.jpg](https://s6.jpg.cm/2022/05/12/LDAHC4.jpg)](https://imagelol.com/image/LDAHC4) -->
+[![闲鱼链接.jpg](https://s6.jpg.cm/2022/05/16/LMAAxT.jpg)](https://imagelol.com/image/LMAAxT)
 说明文档请见：[WS2812-RGB灯珠控制芯片说明文档](/docs/modules/rgbcore/)
 
 
