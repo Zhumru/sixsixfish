@@ -86,7 +86,7 @@
     },
     "headline": "Gcore-V3使用文档 | G613相关 | 六6鱼分享站","datePublished": "2022-04-18T00:00:00+00:00",
     "dateModified": "2022-04-18T00:00:00+00:00",
-    "wordCount":  1693 ,
+    "wordCount":  2007 ,
     "author": {
         "@type": "Person",
         "name": "SixSixFish"
@@ -288,7 +288,7 @@
   </div>
   <div class="me-6 my-2">
     <i class="fas fa-clock me-1"></i>
-    <span>4分钟阅读时长</span>
+    <span>5分钟阅读时长</span>
   </div>
 
   
@@ -300,33 +300,102 @@
   
   
 
-  <p>感谢使用Gcore-V3主控转接小板，本文档详细说明了Gcore-V3主控转接小板的功能、使用以及元件焊接。</p>
-<p>阅读之前不妨先看视频 <a href="https://gohugo.io/getting-started/installing/">罗技G613主控转接小板V3</a></p>
+  <p>、、尚未发布，敬请期待。。。</p>
+<p>感谢使用Gcore-V3主控转接小板，本文档详细说明了Gcore-V3主控转接小板的功能、使用以及元件焊接。</p>
+<p>阅读之前不妨先看视频 <a href="https://gg/">罗技G613主控转接小板V3</a></p>
 <blockquote>
 <p><strong>更新说明：</strong>
-Gcore—V3版本的主控转接小板，在V2的基础上，不仅仅将键盘矩阵引脚及LS、蓝牙指示灯引出，还增加了以下板载功能：
-1、充电模块及充电指示灯；
-2、3V稳压模块；
-3、按键控制键盘背光灯打开与关闭；
-4、Fn功能。
-5、开源适配该小板的键盘主PCB原理图。</p>
+Gcore—V3版本的主控转接小板，在V2的基础上，不仅仅将键盘矩阵引脚及LightSpeed、蓝牙、大写指示灯引出，还增加了以下板载功能：</p>
 </blockquote>
+<pre><code>1、充电模块及电量指示灯；
+2、3.3V稳压模块；
+3、RGB功能，自带大约120种灯效；
+4、Fn按键功能。
+5、开源适配该小板的键盘主PCB原理图。
+</code></pre>
 <p><a href="https://imagelol.com/image/L9T0lr"><img src="https://s6.jpg.cm/2022/04/18/L9T0lr.png" alt="测试图片"></a></p>
-<p>Gcore—V3小板共引出42个引脚，了解各引脚的使用说明请继续往下阅读。</p>
+<p>该主控转接小板的使用可直接参考搭配Gcore—V3的键盘主PCB原理图及PCB：<a href="https://gohugo.io/getting-started/installing/">G613键盘改造-搭配GcoreV3</a></p>
+<p>Gcore—V3小板共引出43个引脚，了解各引脚的使用说明请继续往下阅读。</p>
+<h2 id="功耗">功耗</h2>
+<p>以下功耗数据是基于G613主控转接小板V3 + 用于测试的12按键小键盘PCB整体测得。</p>
+<ol>
+<li>整体静态功耗0.06mA(G613主控为激活状态)；</li>
+<li>单个按键按下瞬间功耗1-2.7mA，按键松开后变为0.06mA;</li>
+<li>打开RGB背光，12颗灯珠以第一种灯效发光的情况，整体功耗88mA；</li>
+</ol>
 <h2 id="电源相关">电源相关</h2>
 <ol>
-<li>充电采用5V电源输入，输入正极接5V引脚，负极接GND；</li>
-<li>电池采用3.7V锂电池，正极接BAT，负极接GND；</li>
-<li>板载3V稳压模块，该小板接上3.7V锂电池或通上5V电源即可工作。</li>
+<li>充电采用5V电源输入，输入正极接5V引脚，负极接GND，充电最大功率为5V 1.2A；</li>
+<li>电池采用3.7V锂电池，正极接BAT，负极接GND，电池选用带锂电池保护板的电池；</li>
+<li>板载3.3V稳压模块，该小板接上3.7V锂电池或通上5V电源即可工作。</li>
 </ol>
 <h2 id="背光灯与指示灯">背光灯与指示灯</h2>
 <ol>
-<li>键盘背光灯采用3528/6028单色反贴片灯，所有灯珠并联，正极接“背光灯+”，负极接GND；</li>
-<li>充电指示灯采用两颗LED或者单颗共阳RGB灯，正极接5V，负极分别接R和G，R为充电中，G为充满；</li>
 <li>大写caps、蓝牙和LightSpeed模式指示灯采用3颗LED或者单颗共阳RGB灯，正极接3V，负极分别接大写LED、蓝牙LED、LSLED。</li>
+<li>电量指示灯采用3颗LED和一个100Ω的电阻，使用小板上的L1和L2两个引脚，注意灯珠的正负极，接法如下图所示：
+<a href="https://imagelol.com/image/PGeAcf"><img src="https://s6.jpg.cm/2022/05/30/PGeAcf.png" alt="电量指示灯接法.png"></a>
+充电状态指示灯显示模式如下：
+<table>
+<thead>
+<tr>
+<th>电量C（%）</th>
+<th>LED1</th>
+<th>LED2</th>
+<th>LED3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>充满</td>
+<td>亮</td>
+<td>亮</td>
+<td>亮</td>
+</tr>
+<tr>
+<td>66% &lt; C</td>
+<td>亮</td>
+<td>亮</td>
+<td>1.5Hz 闪烁</td>
+</tr>
+<tr>
+<td>33% &lt; C &lt; 66%</td>
+<td>亮</td>
+<td>1.5Hz 闪烁</td>
+<td>灭</td>
+</tr>
+<tr>
+<td>C &lt; 33%</td>
+<td>1.5Hz 闪烁</td>
+<td>灭</td>
+<td>灭</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
+<p>Fn功能可查看电量状态，每颗灯对应的电池电量如下表：</p>
+<table>
+<thead>
+<tr>
+<th>LED1</th>
+<th>LED2</th>
+<th>LED3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>33%</td>
+<td>66%</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table>
+<ol start="3">
+<li>键盘背光灯采用WS2812b-3528/6028 RGB反贴片灯，所有灯珠的VDD引脚接小板的‘BAT’引脚，所有灯珠的GND引脚接小板的‘RGB-’引脚，第一个灯珠的DIN引脚接小板的‘RGB信号’引脚，后面灯珠的DIN-DOUT引脚串联，参考下图所示。
+<a href="https://imagelol.com/image/PGe6zH"><img src="https://s6.jpg.cm/2022/05/30/PGe6zH.png" alt="RGB接法.png"></a></li>
 </ol>
 <h2 id="按键矩阵">按键矩阵</h2>
-<p>按键矩阵可直接参考适配Gcore—V3的立创开源原理图及键盘PCB：<a href="https://gohugo.io/getting-started/installing/">G613键盘改造-搭配GcoreV3</a></p>
+<p>按键矩阵可直接参考搭配Gcore—V3的键盘主PCB原理图。</p>
 <p>不会看原理图的话&hellip;矩阵图如下：</p>
 <table>
 <thead>
@@ -514,8 +583,8 @@ Gcore—V3版本的主控转接小板，在V2的基础上，不仅仅将键盘�
 </tr>
 </tbody>
 </table>
-<p>上面矩阵图中不包含带Fn功能的按键，带Fn功能的按键（F11/F12/-_/=+/BackSpace/Delete）的接线方式请继续往下阅读。</p>
-<h2 id="fn功能">Fn功能</h2>
+<p>上面矩阵图中不包含带Fn功能的按键，带Fn功能的按键（F1/F2/F3/F4/F11/F12/上/下/右/END）的接线方式请继续往下阅读。</p>
+<h2 id="fn按键功能">Fn按键功能</h2>
 <ol>
 <li>
 <p>Fn按键说明</p>
@@ -524,265 +593,351 @@ Gcore—V3版本的主控转接小板，在V2的基础上，不仅仅将键盘�
 </li>
 </ol>
 <ul>
-<li>Fn + F11 = lightSpeed按键</li>
-<li>Fn + F12 = 蓝牙按键</li>
-<li>Fn + -_  = 音量-按键</li>
-<li>Fn + =+  = 音量+按键</li>
-<li>Fn + BackSpace = 静音按键</li>
-<li>Fn + Delete = 开启/关闭背光灯</li>
+<li>
+<p>Fn + F11 = lightSpeed按键;</p>
+</li>
+<li>
+<p>Fn + F12 = 蓝牙按键;</p>
+</li>
+<li>
+<p>Fn + F1 = 音量-按键;</p>
+</li>
+<li>
+<p>Fn + F2 = 音量+按键;</p>
+</li>
+<li>
+<p>Fn + F3 = 静音按键;</p>
+</li>
+<li>
+<p>Fn + F4 = 暂停按键;</p>
+</li>
+<li>
+<p>Fn + End = 开启/关闭RGB背光灯/电量显示：</p>
+<ol>
+<li>按键持续时间长于 30ms，但小于 2s， 即为短按动作，短按会打开电量指示灯，电量指示灯在亮起33秒后自动熄灭，或者双击FN+END手动关闭；</li>
+<li>按键持续时间长于 2s， 即为长按动作， 长按会开启或者关闭RGB背光灯。</li>
+<li>在 1s 内连续两次短按键，会关闭电量指示灯和RGB背光灯。</li>
+</ol>
+</li>
+<li>
+<p>Fn + 上 = 上一个灯效。</p>
+</li>
+<li>
+<p>Fn + 下 = 下一个灯效。</p>
+</li>
+<li>
+<p>Fn + 右 = 灯效调速。</p>
+</li>
 </ul>
 <ol start="2">
 <li>
-<p>Fn功能的接线方式可参考按键矩阵原理图：<a href="https://gohugo.io/getting-started/installing/">G613键盘改造-搭配GcoreV3</a></p>
-<p>不会看原理图的话&hellip;Fn功能的按键接线说明如下：</p>
+<p>Fn按键的接线方式可直接参考搭配Gcore—V3的键盘主PCB原理图。</p>
+<p>不会看原理图的话&hellip;Fn功能的按键矩阵如下：</p>
 <p><em>二极管的方向为C→R</em></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><strong>R\C</strong></th>
+<th style="text-align:center"><strong>COL10</strong></th>
+<th style="text-align:center"><strong>COL11</strong></th>
+<th style="text-align:center"><strong>n1</strong></th>
+<th style="text-align:center"><strong>n2</strong></th>
+<th style="text-align:center"><strong>n3</strong></th>
+<th style="text-align:center"><strong>n5</strong></th>
+<th style="text-align:center"><strong>n8</strong></th>
+<th style="text-align:center"><strong>3V</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><strong>ROW3</strong></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">F12</td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>ROW4</strong></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">F11</td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>n4</strong></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">右</td>
+<td style="text-align:center">下</td>
+<td style="text-align:center">END</td>
+<td style="text-align:center">上</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>n6</strong></td>
+<td style="text-align:center">F4</td>
+<td style="text-align:center">F3</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>n7</strong></td>
+<td style="text-align:center">F2</td>
+<td style="text-align:center">F1</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>SE</strong></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">FN</td>
+</tr>
+</tbody>
+</table>
 </li>
 </ol>
-<ul>
-<li>主控转接小板的n2引脚接F11按键的C脚，ROW4接F11按键的R脚；</li>
-<li>n2接F12按键的C脚，ROW3接F12按键的R脚；</li>
-<li>n3接-_按键的C脚，n5接-_按键的R脚；</li>
-<li>n4接=+按键的C脚，n5接=+按键的R脚；</li>
-<li>n6接BackSpace按键的C脚，n7接BackSpace按键的R脚；</li>
-<li>n8接Delete按键的C脚，n9接Delete按键的R脚，<em>Delete按键的二极管位置贴0欧1206电阻或者直接短接</em>；</li>
-<li>3V接Fn按键的C脚，n1接Fn按键的R脚，<em>Fn按键的二极管位置贴10欧1206电阻</em>。</li>
-</ul>
-<p><em>注意：Fn和Delete按键的二极管位置不是焊二极管！！</em></p>
-<hr>
 <h2 id="元件焊接指引">元件焊接指引</h2>
 <p>各编号对应的元件请参考下面的BOM表：</p>
 <table>
 <thead>
 <tr>
+<th><strong>ID</strong></th>
 <th><strong>编号</strong></th>
 <th><strong>名称</strong></th>
-<th><strong>丝印</strong></th>
-<th><strong>引脚数</strong></th>
 <th><strong>封装</strong></th>
+<th><strong>丝印</strong></th>
 <th><strong>数量</strong></th>
+<th><strong>引脚数</strong></th>
 <th><strong>备注</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>C3,C6,C9,C10</td>
-<td>100nF</td>
-<td>无</td>
-<td>2</td>
-<td>C0805</td>
-<td>1</td>
-<td>小的电容</td>
-</tr>
-<tr>
-<td>C11,C12</td>
-<td>10μF</td>
-<td>无</td>
-<td>2</td>
+<td><strong>1</strong></td>
+<td>C1,C2,C3</td>
+<td>10uF</td>
 <td>C1206</td>
+<td>无</td>
+<td>3</td>
 <td>2</td>
 <td>大的电容</td>
 </tr>
 <tr>
-<td>D1,D2（T4）</td>
-<td>4148二极管</td>
+<td><strong>2</strong></td>
+<td>C4,C5,C6</td>
+<td>2.2μF</td>
+<td>C0805</td>
+<td>无</td>
+<td>3</td>
+<td>2</td>
+<td>小的电容</td>
+</tr>
+<tr>
+<td><strong>3</strong></td>
+<td>D1,D2,D3</td>
+<td>贴片二极管T4-1N4148WS</td>
+<td>SOD123-1206</td>
 <td>T4</td>
+<td>3</td>
 <td>2</td>
-<td>贴片二极管T4-1N4148WS-SOD123-1206</td>
-<td>2</td>
-<td>有正负极</td>
+<td>分正负</td>
 </tr>
 <tr>
-<td>D3,D4</td>
-<td>SS16L</td>
-<td>SS16</td>
+<td><strong>4</strong></td>
+<td>L1</td>
+<td>0420-2.2uH电感</td>
+<td>L4.0-W4.0_SMNR4020</td>
+<td>2R2</td>
+<td>1</td>
 <td>2</td>
-<td>SMA_L4.3-W2.6-LS5.2-RD</td>
-<td>2</td>
-<td>有正负极</td>
+<td></td>
 </tr>
 <tr>
-<td>Q1,Q2,Q4</td>
-<td>MOSFET</td>
+<td><strong>5</strong></td>
+<td>Q1,Q2,Q3</td>
+<td>MOSFET-2N7002</td>
+<td>SOT23-3</td>
 <td>7002</td>
 <td>3</td>
-<td>SOT23-3  NCHANNELAO3404A</td>
 <td>3</td>
 <td></td>
 </tr>
 <tr>
-<td>Q3</td>
-<td>AO3401-P</td>
-<td>A19T</td>
-<td>3</td>
-<td>SOT-23_L2.9-W1.3-P1.90-LS2.4-BR</td>
+<td><strong>6</strong></td>
+<td>Q4</td>
+<td>NMOS-AO3402</td>
+<td>SOT23-3</td>
+<td>A29T</td>
 <td>1</td>
+<td>3</td>
 <td></td>
 </tr>
 <tr>
+<td><strong>7</strong></td>
 <td>Q5</td>
-<td>S8050-NPN</td>
-<td>Y1</td>
-<td>3</td>
-<td>SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR</td>
+<td>RGB芯片</td>
+<td>SOP-8</td>
+<td>无</td>
 <td>1</td>
+<td>8</td>
 <td></td>
 </tr>
 <tr>
-<td>R1,R3,R11</td>
-<td>1K</td>
-<td>1001或102</td>
-<td>2</td>
-<td>R1206</td>
-<td>3</td>
-<td></td>
-</tr>
-<tr>
-<td>R4,R5,R10,R23</td>
-<td>47K</td>
-<td>4702或473</td>
-<td>2</td>
-<td>R1206</td>
-<td>4</td>
-<td></td>
-</tr>
-<tr>
-<td>R6,R7,R8</td>
-<td>10R</td>
-<td>100</td>
-<td>2</td>
-<td>R1206</td>
-<td>3</td>
-<td></td>
-</tr>
-<tr>
-<td>R9,R12</td>
+<td><strong>8</strong></td>
+<td>R1</td>
 <td>2K</td>
-<td>2001</td>
-<td>2</td>
 <td>R1206</td>
+<td>2001或202</td>
 <td>1</td>
+<td>2</td>
 <td></td>
 </tr>
 <tr>
-<td>R13</td>
-<td>10k</td>
-<td>1002</td>
-<td>2</td>
+<td><strong>9</strong></td>
+<td>R2,R3,R4,R13</td>
+<td>1K</td>
 <td>R1206</td>
-<td>1</td>
+<td>1001或102</td>
+<td>4</td>
+<td>2</td>
 <td></td>
 </tr>
 <tr>
+<td><strong>10</strong></td>
+<td>R5,R6,R7,R11</td>
+<td>47K</td>
+<td>R1206</td>
+<td>4702或473</td>
+<td>4</td>
+<td>2</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>11</strong></td>
+<td>R8,R9,R10,R16,R17</td>
+<td>10R</td>
+<td>R1206</td>
+<td>100</td>
+<td>5</td>
+<td>2</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>12</strong></td>
+<td>R12</td>
+<td>2R</td>
+<td>R1206</td>
+<td>2R2</td>
+<td>1</td>
+<td>2</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>13</strong></td>
 <td>R14</td>
-<td>1.2k/1%</td>
-<td>1201</td>
-<td>2</td>
+<td>10K</td>
 <td>R1206</td>
+<td>1002或103</td>
 <td>1</td>
+<td>2</td>
 <td></td>
 </tr>
 <tr>
-<td>R17</td>
+<td><strong>14</strong></td>
+<td>R15</td>
 <td>100K</td>
+<td>R1206</td>
 <td>1003或104</td>
-<td>2</td>
-<td>R1206</td>
 <td>1</td>
-<td></td>
-</tr>
-<tr>
-<td>R19,R20</td>
-<td>1M</td>
-<td>105</td>
-<td>2</td>
-<td>R1206</td>
 <td>2</td>
 <td></td>
 </tr>
 <tr>
-<td>R21</td>
-<td>300K</td>
-<td>3003或304</td>
-<td>2</td>
-<td>R1206</td>
+<td><strong>15</strong></td>
+<td>U1</td>
+<td>XA2320B</td>
+<td>SOT-23-6</td>
+<td>N1IF</td>
 <td>1</td>
+<td>6</td>
 <td></td>
 </tr>
 <tr>
-<td>R22</td>
-<td>R2512</td>
-<td>1R0</td>
-<td>2</td>
-<td>R2512</td>
-<td>1</td>
-<td></td>
-</tr>
-<tr>
+<td><strong>16</strong></td>
 <td>U3</td>
 <td>XC6206P332MR</td>
+<td>SOT-23-3</td>
 <td>662K</td>
+<td>1</td>
 <td>3</td>
-<td>SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR</td>
-<td>1</td>
 <td></td>
 </tr>
 <tr>
-<td>U5</td>
-<td>TP4056</td>
-<td>4056A</td>
-<td>8</td>
-<td>TP4056带散热</td>
+<td><strong>17</strong></td>
+<td>U4</td>
+<td>IP5305</td>
+<td>ESOP-8</td>
+<td>IP5305</td>
 <td>1</td>
-<td></td>
+<td>9</td>
+<td>底部大焊盘也要焊</td>
 </tr>
 <tr>
-<td>U7,U8,U9</td>
+<td><strong>18</strong></td>
+<td>U5,U6,U7</td>
 <td>CD4053BM</td>
-<td>CD4053BM</td>
+<td>SOIC-16</td>
+<td>CD4053</td>
+<td>3</td>
 <td>16</td>
-<td>SOIC-16_L9.9-W3.9-P1.27-LS6.0-BL</td>
-<td>3</td>
 <td></td>
 </tr>
 <tr>
-<td>U2</td>
+<td><strong>19</strong></td>
+<td>排针</td>
+<td>2.54排针_1X43</td>
+<td>2.54排针_1X43</td>
+<td>无</td>
+<td>1</td>
+<td>43</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>20</strong></td>
+<td>G</td>
 <td>G613主控</td>
-<td>无</td>
-<td>47</td>
 <td>G613主控封装</td>
-<td>1</td>
-<td></td>
-</tr>
-<tr>
-<td>P1</td>
-<td>2.54排针_1X45</td>
 <td>无</td>
-<td>42</td>
-<td>2.54排针_1X45</td>
 <td>1</td>
+<td>47</td>
 <td></td>
-</tr>
-<tr>
-<td>双孔位</td>
-<td>LS</td>
-<td>不焊接</td>
-<td>2</td>
-<td>测试用</td>
-<td>1</td>
-<td>瞬间短接开启LS模式</td>
-</tr>
-<tr>
-<td>双孔位</td>
-<td>蓝牙</td>
-<td>不焊接</td>
-<td>2</td>
-<td>测试用</td>
-<td>1</td>
-<td>瞬间短接开启蓝牙模式</td>
 </tr>
 </tbody>
 </table>
-<p><em>温馨提示：电容电阻不用区分正负极；有正负极的元件注意看丝印和PCB上的图案对应；多脚芯片注意芯片上的小圆点和PCB上标注的小圆点位置对应！！</em></p>
+<p><em>温馨提示：电容电阻不用区分正负极；有正负极的元件注意看丝印和PCB上的图案对应；多脚芯片注意芯片上的小圆点和PCB上标注的小圆点位置对应；电池一定注意正负极，接反可能直接报废！！</em></p>
 
 </article>
 
@@ -846,10 +1001,11 @@ Gcore—V3版本的主控转接小板，在V2的基础上，不仅仅将键盘�
 >
   <nav id="TableOfContents">
   <ul>
+    <li><a href="#功耗">功耗</a></li>
     <li><a href="#电源相关">电源相关</a></li>
     <li><a href="#背光灯与指示灯">背光灯与指示灯</a></li>
     <li><a href="#按键矩阵">按键矩阵</a></li>
-    <li><a href="#fn功能">Fn功能</a></li>
+    <li><a href="#fn按键功能">Fn按键功能</a></li>
     <li><a href="#元件焊接指引">元件焊接指引</a></li>
   </ul>
 </nav>

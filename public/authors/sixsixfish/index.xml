@@ -19,12 +19,30 @@
     </item>
     
     <item>
+      <title>Gcore-V3使用文档</title>
+      <link>/docs/g613/gcorev3doc/</link>
+      <pubDate>Mon, 18 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/g613/gcorev3doc/</guid>
+      <description>、、尚未发布，敬请期待。。。 感谢使用Gcore-V3主控转接小板，本文档详细说明了Gcore-V3主控转接小板的功能、使用以及元件焊接。 阅读之前不妨先</description>
+    </item>
+    
+    <item>
       <title>WS2812-RGB灯珠控制芯片</title>
       <link>/product/rgbcore/</link>
       <pubDate>Tue, 10 May 2022 00:00:00 +0000</pubDate>
       
       <guid>/product/rgbcore/</guid>
       <description>说明文档请见：WS2812-RGB灯珠控制芯片说明文档</description>
+    </item>
+    
+    <item>
+      <title>GcoreV3主控转接小板</title>
+      <link>/product/gcorev3/</link>
+      <pubDate>Mon, 18 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/product/gcorev3/</guid>
+      <description>更新说明： Gcore—V3版本的主控转接小板，在V2的基础上，不仅仅将键盘矩阵引脚及LightSpeed、蓝牙、大写指示灯引出，还增加了以下板载功能：</description>
     </item>
     
     <item>
