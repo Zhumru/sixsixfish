@@ -7,15 +7,14 @@ authors: SixSixFish
 tags:
 categories:
 series:
-date: '2022-04-18'
-lastmod: '2022-04-18'
+date: '2022-06-04'
+lastmod: '2022-06-04'
 draft: false
 ---
-、、尚未发布，敬请期待。。。
 
 感谢使用Gcore-V3主控转接小板，本文档详细说明了Gcore-V3主控转接小板的功能、使用以及元件焊接。
 
-阅读之前不妨先看视频 [罗技G613主控转接小板V3](https://gg/) 
+阅读之前不妨先看视频 [让键盘DIY变得简单 自带RGB FN功能 G613主控转接小板V3](https://www.bilibili.com/video/BV15U4y117hU/) 
 
 
 >  **更新说明：**
@@ -27,9 +26,9 @@ draft: false
 	4、Fn按键功能。
 	5、开源适配该小板的键盘主PCB原理图。
 
-[![测试图片](https://s6.jpg.cm/2022/04/18/L9T0lr.png)](https://imagelol.com/image/L9T0lr)
+![GcoreV3正面.jpg](https://s6.jpg.cm/2022/06/05/PGCkAQ.jpg)
 
-该主控转接小板的使用可直接参考搭配Gcore—V3的键盘主PCB原理图及PCB：[G613键盘改造-搭配GcoreV3](https://gohugo.io/getting-started/installing/) 
+该主控转接小板的使用可直接参考搭配Gcore—V3的键盘主PCB原理图及PCB：[G613键盘改造-搭配GcoreV3](https://oshwhub.com/lmlku/g613-GoreV3) 
 
 Gcore—V3小板共引出43个引脚，了解各引脚的使用说明请继续往下阅读。
 

@@ -1,14 +1,14 @@
 ---
 title: GcoreV3主控转接小板
-description: G613主控转接小板V3.
+description: G613主控转接小板V3-让键盘DIY变得简单.
 toc: true
 authors:
   - SixSixFish
 tags:
 categories:
 series: G613
-date: '2022-04-18'
-lastmod: '2022-04-18'
+date: '2022-06-04'
+lastmod: '2022-06-04'
 # featuredImage: images/hero-right.jpg
 draft: false
 ---
