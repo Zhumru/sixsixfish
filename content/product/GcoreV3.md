@@ -23,4 +23,7 @@ draft: false
 
 说明文档请见：[GcoreV3主控转接小板](/docs/g613/gcorev3doc/)
 
+![GcoreV3闲鱼.jpg](https://static01.imgkr.com/temp/eb88df5d7ca9448f833e6d0ff3774cb2.jpg)
+
+
 
