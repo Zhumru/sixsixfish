@@ -16,6 +16,8 @@ draft: false
 
 阅读之前不妨先看视频 [罗技G613键盘改造 | 客制化从换轴到开厂系列](https://www.bilibili.com/video/BV14W4y167eC/) 
 
+该键盘主PCB原理图已发布在立创开源平台：[G613键盘改造-搭配GcoreV3](https://oshwhub.com/lmlku/g613-GoreV3) 
+
 ## 配列
 该配列结合了常规84配列键盘，大F minila键位布局，以及美观和个人使用习惯，整合得到以下配列。
 
