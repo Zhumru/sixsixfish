@@ -8,7 +8,16 @@
     <language>zh</language>
     <copyright>&amp;copy; 2022 &lt;a href=&#34;https://sixsixfish.netlify.app/&#34;&gt;六6鱼分享站&lt;/a&gt; 
 </copyright>
-    <lastBuildDate>Sat, 04 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>G84键盘使用文档</title>
+      <link>/docs/g613/g84keyboarddoc/</link>
+      <pubDate>Sat, 18 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/g613/g84keyboarddoc/</guid>
+      <description>感谢使用G84键盘，本文档详细说明了G84键盘的功能、使用、装配以及元件焊接。 阅读之前不妨先看视频 罗技G613键盘改造 | 客制化从换轴到开厂系列 配列 该配</description>
+    </item>
+    
     <item>
       <title>Gcore-V3使用文档</title>
       <link>/docs/g613/gcorev3doc/</link>
@@ -25,6 +34,15 @@
       
       <guid>/docs/modules/rgbcore/</guid>
       <description>该芯片烧录了大约120种灯效，可支持控制400颗WS2812-RGB灯珠的灯带。 使用之前不妨先看视频 【关于RGB，你只需要一颗芯片！电子DIY神器-R</description>
+    </item>
+    
+    <item>
+      <title>G84键盘</title>
+      <link>/product/g84keyboard/</link>
+      <pubDate>Sat, 18 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/product/g84keyboard/</guid>
+      <description>使用GcoreV3主控转接小板制作的一款类84配列的键盘，在继承了罗技G613 lightspeed超低延迟无线技术的基础上，还增加了RGB功能。采用锂</description>
     </item>
     
     <item>
